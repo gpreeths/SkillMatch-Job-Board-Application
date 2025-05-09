@@ -1,0 +1,394 @@
+/* Global Styles */
+body {
+  background-color: #05342D;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+
+}
+
+/* Home Page */
+.homeContent {
+  text-align: center;
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
+.homeContent h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.homeContent p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #bbb;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.homeButton {
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.homeButton:hover {
+  background-color: #1e6fc2;
+}
+
+/* Logo Styling */
+.logoIcon {
+  width: 500px;
+  height: 500px;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+/* Login */
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.login-container form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.login-container form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #45a049;
+}
+
+.login-container p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-container a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+/* Signup */
+.signup-container {
+  max-width: 400px;
+  height: 500px;
+  margin: 50px auto;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-container form label {
+  display: block;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.signup-container form input,
+.signup-container form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.signup-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-container button:hover {
+  background-color: #1e6fc2;
+}
+
+.signup-container p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-container a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.signup-container a:hover {
+  text-decoration: underline;
+}
+
+/* Job Posting */
+.job-posting-container {
+  max-width: 600px;
+  margin: 80px auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.job-posting-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.job-posting-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.job-posting-container input,
+.job-posting-container select,
+.job-posting-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fafafa;
+}
+
+.job-posting-container textarea {
+  resize: vertical;
+}
+
+.job-posting-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.job-posting-container button:hover {
+  background-color: #218838;
+}
+
+/* Menu */
+.menuContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logoIcon {
+  height: 300px;
+ margin-left: 500px;
+ margin-top: 100px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.menu button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Job List Page */
+.job-list-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-list-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.job-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.job-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.job-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.job-card p strong {
+  color: #333;
+}
+
+.apply-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #2e86de;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #1e6fc2;
+}
+
+/* Job Apply Page */
+.apply-page-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.apply-page-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.apply-page-container .form-group {
+  margin-bottom: 20px;
+}
+
+.apply-page-container input,
+.apply-page-container textarea {
+  width: 90%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.apply-page-container textarea {
+  resize: vertical;
+}
+
+.apply-page-container .apply-btn {
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.apply-page-container .apply-btn:hover {
+  background-color: #1e6fc2;
+}
+
+.apply-page-container input[type="file"] {
+  padding: 10px;
+}
